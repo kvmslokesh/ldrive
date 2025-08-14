@@ -3,19 +3,4 @@
   publish = ".next"
 
 [secrets]
-  enabled = true
-
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_PROJECT"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_PROJECT_NAME"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_ENDPOINT"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_DATABASE"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_USERS_COLLECTION"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_FILES_COLLECTION"
-  [[secrets.omitKeys]]
-    name = "NEXT_PUBLIC_APPWRITE_BUCKET"
+  enabled = false
