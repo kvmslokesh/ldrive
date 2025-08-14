@@ -1,4 +1,4 @@
-# 🚀 LDRive – A Google Drive Clone
+# 🚀 LDRive – The Professional's Cloud
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)  
 ![Next.js](https://img.shields.io/badge/Next.js-15-000000?logo=next.js&logoColor=white)  
