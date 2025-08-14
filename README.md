@@ -83,6 +83,12 @@ NEXT_PUBLIC_APPWRITE_BUCKET="your_bucket_id"
 NEXT_APPWRITE_KEY="your_api_key"
 ```
 
+### 4️⃣ Run Locally
+```bash
+npm run dev
+```
+App will be running at: <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
+
 <p align="center">
   <a href="https://ldrive.netlify.app" target="_blank">
     🌍 <b>Live Demo – LDRive</b> 🚀
