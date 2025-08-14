@@ -3,8 +3,19 @@
   publish = ".next"
 
 [secrets]
-  # These are not secrets, just project config
-  SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_APPWRITE_PROJECT,NEXT_PUBLIC_APPWRITE_PROJECT_NAME,NEXT_PUBLIC_APPWRITE_ENDPOINT,NEXT_PUBLIC_APPWRITE_DATABASE,NEXT_PUBLIC_APPWRITE_USERS_COLLECTION,NEXT_PUBLIC_APPWRITE_FILES_COLLECTION,NEXT_PUBLIC_APPWRITE_BUCKET"
+  enabled = true
 
-  # Keep scanning enabled for real secrets
-  SECRETS_SCAN_ENABLED = "true"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_PROJECT"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_PROJECT_NAME"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_ENDPOINT"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_DATABASE"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_USERS_COLLECTION"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_FILES_COLLECTION"
+  [[secrets.omitKeys]]
+    name = "NEXT_PUBLIC_APPWRITE_BUCKET"
